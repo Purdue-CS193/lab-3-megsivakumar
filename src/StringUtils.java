@@ -13,6 +13,7 @@ public class StringUtils {
                     --> res = "SFlannery"
          */
         String res = firstName.substring(0,1) + lastName;
+        System.out.println(res);
         /* Shorten the string to 8 characters
             Ex: res = "SFlannery"
                     --> res = "SFlanner"

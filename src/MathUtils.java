@@ -31,6 +31,7 @@ public class MathUtils {
         for (int i = 1; i < exp; i++) {
            res *= base;
         }
+        System.out.println(res);
 
         /* If it's a negative exponent, we should invert it! */
         if (isNegative) {
